@@ -46,6 +46,7 @@ body{
 ul{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 /* Footer */
 #mainfooter{
@@ -121,11 +122,24 @@ margin-right: 50px;
 }
 
 .hisarticle {
+    max-width: 924px;
     margin-bottom: 50px;
-    flex-wrap: wrap;
 }
 #floatImgleft{
     float: left;
 }
 
+.overlap p {
+    text-align: left;
+    max-width: 50px;
+}
+/* Form */
 
+.form {
+    margin-top: 50px;
+   display: flex;
+   max-width: 500px;
+   flex-direction: column;
+   background-color: #000;
+   
+}
