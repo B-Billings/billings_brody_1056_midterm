@@ -31,21 +31,18 @@ body{
     width: 400px;
     float: left;
     height: 100px;
-    background-color: #000;
 }
 
 #mainnav{
     width: 624px;
     float: right;
-    height: 100px;
-    background-color: #000;
-    
 }
 
 ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 50px;
 }
 /* Footer */
 #mainfooter{
