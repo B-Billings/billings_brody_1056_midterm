@@ -5,8 +5,7 @@
 }
 
 p{
-    color: #fff;
-    background: #000;
+    color: rgb(73, 73, 73);
     margin: 0;
 }
 
@@ -74,6 +73,8 @@ ul{
 /* Products/Promos Page*/
 #products{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     margin-top: 50px;
     justify-content: center;
     justify-content: space-evenly;
@@ -91,7 +92,6 @@ ul{
     margin-top: 50px;
     width: 150px;
     height: 30px;
-    background-color: #000;
     margin-bottom: 10px;
 
 }
@@ -99,14 +99,12 @@ ul{
 #stories h3{
     width: 150px;
     height: 30px;
-    background-color: #000;
     margin-bottom: 10px;
 }
 
 #stories h4{
     width: 100px;
     height: 30px;
-    background-color: #000;
     margin-bottom: 10px;
 }
 #stories{
@@ -141,5 +139,51 @@ margin-right: 50px;
    max-width: 500px;
    flex-direction: column;
    background-color: #000;
-   
+   margin-bottom: 50px;
 }
+
+.formopen {
+    margin-top: 50px;
+   display: flex;
+   flex-direction: row;
+   max-width: 500px;
+   background-color: rgb(168, 0, 0);
+   margin-bottom: 50px;
+}
+
+.button{
+    align-items: center;
+}
+
+/* Ads page*/
+
+#advertisments{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.adl{
+width: 50%;
+margin-bottom: 50px;
+}
+.adl h3, h4{
+    text-align: left;
+    padding: 10px;
+    }
+
+.adr{
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.adr h3, h4{
+    text-align: left;
+    padding: 10px;
+    }
