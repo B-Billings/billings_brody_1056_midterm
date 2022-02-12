@@ -5,14 +5,37 @@
 }
 
 p{
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-weight: 400;
     color: rgb(73, 73, 73);
     margin: 0;
 }
 
+h3{
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgb(73, 73, 73);
+}
+
+h4{
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(73, 73, 73);
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    color: #333;
+    color: rgb(73, 73, 73);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    }
+    
+a:visited{
+    text-decoration: none;
+    color: black;
 }
 
 #sitecontainer{
@@ -56,13 +79,18 @@ ul{
     float: left;
     width: 557px;
     height: 100px;
-    background-color: #000;
+    background-color: rgb(51, 70, 155);
 }
 #copyright{
     float: right;
     width: 467px;
     height: 100px;
-    background-color: #000;
+    background-color: rgb(51, 70, 155);
+    text-align: center;
+}
+
+#copyright p {
+    color: black;
 }
 
 /* Hero */
@@ -100,19 +128,16 @@ ul{
 
 .hisarticlel{
     display: inline-block;
-    background-color: aqua;
     margin-bottom: 50px;
 }
 .hisarticlel img{
     float: left;
-    background-color: aqua;
     margin-right: 10px;
 }
 
 .hisarticlel p{
     max-height: 400px;
     margin-left: 20px;
-    background-color: rgb(27, 233, 71);
 }
 
 .overlap p {
@@ -121,12 +146,17 @@ ul{
 }
 /* Form */
 .form {
-    margin-top: 50px;
+   margin-top: 50px;
    display: flex;
-   max-width: 500px;
+   justify-content: center;
    flex-direction: column;
-   background-color: #000;
+   background-color: rgb(168, 168, 168);
+   
+   padding: 20px;
    margin-bottom: 50px;
+}
+.form input{
+    margin-bottom: 10px;
 }
 
 
@@ -169,21 +199,13 @@ margin-bottom: 50px;
 /* landing page*/
 .welcomepage{
     justify-content: center;
-    background: url(/images/billings_brody_6packc.jpg);
-    background-repeat: no-repeat;
+    background: url(/images/billings_brody_landingpage.jpg);
+    background-size: 1024px, 600px;
+    height: 600px;
     background-size: 100%;
 }
-.formopen {
-   
-justify-items: center;    
-margin-top: 50px;
-margin-bottom: 50px;
+.formopen {    
+margin-top: 150px;
+margin-left: 100px;
 padding: 50px;
-}
-
-#logolanding{
-    display: block;
-    align-items: center;
-    height: 100px;
-    width: 400px;
 }
