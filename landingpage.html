@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Landing</title>
 </head>
 <body>
     <div id="sitecontainer">
         <section class="welcomepage">
             <h1 class="hidden"> Gold Bond Brewery</h1>
-            <section>
-                <h2 class="hidden">Logo</h2>
-                <div id="logolanding"> <a href="landingpage.html"> <img src="images/billings_brody_fip_logo_name.svg" alt=" Gold Bond Logo"></a> </div>
-            </section>
-            <h3 class="hidden">Gold Bond Age Form</h3>
                 <div class="formopen">
                 <form class="formopen" action="email.php" method="POST" enctype="text/plain">
                     <input name="month" type="number" placeholder="M/M">
@@ -29,7 +27,17 @@
         </section>
         <footer id="mainfooter">
             <h2 class="hidden">Footer</h2>
-            <div id="footernav"><p>Footer Nav</p></div>
+            <div>
+            <nav id="footernav"> 
+                <h2 class="hidden">footer Navigation</h2>
+                <ul>
+                    <li><a href="about.html"> About</a></li>
+                    <li><a href="products.html"> Products</a></li>
+                    <li><a href="advertismentspage.html"> Advertisments</a></li>
+                    <li><a href="contactpage.html"> Contact</a></li>
+                </ul>
+            </nav>
+            </div>
             <div id="copyright"><p>Copyright info</p></div>
         </footer>
     </div>
