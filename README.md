@@ -29,7 +29,9 @@ Places where placeholder.com is usedhas a note in the code to reference what wou
 ## Credits
 ***
 HTML markup/outline [W3C](https://validator.w3.org/)
+<br> 
 CSS Animation help [MDN Web Docs](https://developer.mozilla.org/en-US/)
+<br> 
 CSS Reset File [Meyer Web](http://meyerweb.com/eric/tools/css/reset/)
 
 <br>
