@@ -3,6 +3,339 @@
 .hidden {
     display: none;
 }
+body{
+  font-family: "Baskervville", Arial, Helvetica sans-serif;
+}
+h3{
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.sitecontainer{
+    max-width: 1024px;
+    margin:auto;
+
+  }
+/* ----------------------------------------------------------NAV START ---------------------------------------------------*/
+.logo{
+  width: 40%;
+  padding: 10px;
+}
+.mainnav{
+  background-color: #ac2025;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mainnav ul li{
+  list-style-type: none;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-right: 20px;
+  padding:9px;
+}
+
+.mainnav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.mainnav ul li a:hover{
+  color: rgb(51, 70, 155);
+  transition: 1s;
+}
+#menu{
+  width: 5%;
+  height: 5%;
+  display: none;
+}
+
+/* ----------------------------------------------------------NAV END ---------------------------------------------------*/
+/* --------------------------------------------------------FOOTER START ---------------------------------------------------*/
+.mainfooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 100%;
+  background-color: #ac2025;
+
+}
+
+
+.footernav ul{
+  max-width: 100%;
+}
+.footernav ul li{
+  display: inline-flex;
+}
+.footernav ul li a{
+  text-decoration: none;
+  margin-top: 50%;
+  color: #fff;
+}
+#copyright{
+  max-width: 30%;
+  right: 20px;
+}
+/* ----------------------------------------------------------FOOTER END ---------------------------------------------------*/
+/* ----------------------------------------------------------HERO START ---------------------------------------------------*/
+.hero {
+     max-width: 100%;
+     block-size: auto;
+}
+
+.hero img{
+  max-width: 100%;
+}
+
+/* ----------------------------------------------------------HERO END ---------------------------------------------------*/
+
+/* ----------------------------------------------------------LANDING START ---------------------------------------------------*/
+.welcomepage{
+
+    justify-content: center;
+    background: url(../images/billings_brody_landingpage.jpg);
+    max-height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.formopen {
+margin-left: 15%;
+margin-left: 15%;
+padding: 50px;
+max-width: 100%;
+animation-duration: 2s;
+animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+    to {
+      margin-left: 20%;
+      width: 100%;
+    }
+}
+
+/* ----------------------------------------------------------LANDING END ---------------------------------------------------*/
+
+
+/* ----------------------------------------------------------ABOUT START ---------------------------------------------------*/
+#stories{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hisarticlel{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.hisarticlel img{
+    float: left;
+    margin-right: 10px;
+    max-width: 100%;
+}
+
+.hisarticlel p{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.overlap p {
+    text-align: left;
+    max-width: 50px;
+}
+@media only screen and (max-width:717px) {
+  .hisarticlel{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+
+    .hisarticlel p{
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+  }
+  .hisarticlel p{
+      margin-top: 20px;
+      margin-left: 10px;
+  }
+}
+
+/* ----------------------------------------------------------ABOUT END ---------------------------------------------------*/
+
+/* ----------------------------------------------------------PRODUCT START ---------------------------------------------------*/
+#products{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#products h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#blist{
+  display: none;
+}
+@media only screen and (max-width:850px) {
+#product2 {display: none;}
+#product3 {display: none;}
+
+#blist{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+margin-left: 20%;
+margin-right: 20%;
+margin-bottom: 20px;
+}
+#btn1{
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #ac2025;
+}
+#btn2{
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #ac2025;
+}
+#btn3{
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #ac2025;
+}
+
+}
+
+
+/* ----------------------------------------------------------PRODUCT END ---------------------------------------------------*/
+
+/* ----------------------------------------------------------ADVERT START ---------------------------------------------------*/
+
+.advertisments {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.ad2 {
+  margin-bottom:50px;
+}
+/* ----------------------------------------------------------ADVERT END ---------------------------------------------------*/
+
+@media only screen and (max-width:500px) {
+
+  .sitecontainer{
+      max-width: 1024px;
+    }
+
+/* ----------------------------------------------------------NAV MOBILE START -------------------------------------------------*/
+.mainnav{
+    background-color: blue;
+    flex-direction: column;
+    position: sticky;
+    top: 0px;
+  }
+#menu{
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  right: 20px;
+}
+
+.mainnav ul {
+  color: white;
+}
+.mainnav ul li{
+  background-color: green;
+  list-style-type: none;
+  display: block;
+  margin-top: 40px;
+  padding:10px;
+  display: none;
+  margin-right: 30px;
+}
+/* ----------------------------------------------------------NAV MOBILE END -------------------------------------------------*/
+/* ----------------------------------------------------------Foot MOBILE END -------------------------------------------------*/
+.mainfooter{
+  background-color: blue;
+}
+/* ----------------------------------------------------------Foot MOBILE END -------------------------------------------------*/
+
+/* -------------------------------------------------LANDING MOBILE START ---------------------------------------------------*/
+/* ----------------------------------------------------LANDING MOBILE END ---------------------------------------------------*/
+
+
+/* ----------------------------------------------------------ABOUT MOBILE START ---------------------------------------------------*/
+.hisarticlel{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+/* ----------------------------------------------------------ABOUT MOBILE END ---------------------------------------------------*/
+
+/* ----------------------------------------------------------PRODUCT MOBILE START ---------------------------------------------------*/
+/* ----------------------------------------------------------PRODUCT MOBILE END ---------------------------------------------------*/
+
+/* ----------------------------------------------------------ADVERT MOBILE START ---------------------------------------------------*/
+.advertisments{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.advertisments img{
+  max-width: 100%;
+}
+
+.footernav ul li{
+  display: none;
+}
+
+#copyright{
+  max-width: 100%;
+  font-size: 10px;
+  overflow: none;
+}
+/* ----------------------------------------------------------ADVERT MOBILE END ---------------------------------------------------*/
+
+/* ----------------------------------------------------------CONTACT MOBILE START ---------------------------------------------------*/
+/* ----------------------------------------------------------CONTACT MOBILE END ---------------------------------------------------*/
+}
+
+/*
+.hidden {
+    display: none;
+}
 
 p{
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
@@ -33,7 +366,7 @@ a{
     text-decoration: none;
     color: black;
     }
-    
+
 a:visited{
     text-decoration: none;
     color: black;
@@ -46,11 +379,12 @@ a:visited{
     width: 1024px;
 }
 /* Header/Main Nav*/
+/*
 #mainheader{
     overflow: hidden;
     position: fixed;
     background-color: rgb(172, 32, 37);
-    
+
 }
 
 #logo{
@@ -89,6 +423,7 @@ li a:hover::after {
 }
 
 /* Footer */
+/*
 #mainfooter{
     overflow: hidden;
 }
@@ -114,11 +449,10 @@ li a:hover::after {
 }
 
 /* Hero */
-.hero {
-    margin-top: 100px;
-}
+
 
 /* Products/Promos Page*/
+/*
 #products{
     display: flex;
     flex-direction: row;
@@ -136,7 +470,7 @@ li a:hover::after {
 }
 
 /* About page*/
-
+/*
 #stories{
     display: flex;
     flex-direction: column;
@@ -165,6 +499,7 @@ li a:hover::after {
     max-width: 50px;
 }
 /* Form */
+/*
 .form {
    margin-top: 50px;
    display: flex;
@@ -184,7 +519,7 @@ li a:hover::after {
 }
 
 /* Ads page*/
-
+/*
 #advertisments{
     display: flex;
     flex-direction: row;
@@ -215,6 +550,7 @@ margin-bottom: 50px;
     }
 
 /* landing page*/
+/*
 .welcomepage{
     margin-top: 50px;
     justify-content: center;
@@ -223,7 +559,7 @@ margin-bottom: 50px;
     height: 600px;
     background-size: 100%;
 }
-.formopen {    
+.formopen {
 margin-top: 150px;
 margin-left: 100px;
 padding: 50px;
