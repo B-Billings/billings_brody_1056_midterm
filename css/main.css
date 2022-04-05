@@ -68,6 +68,9 @@ p{
   background-color: #ac2025;
 
 }
+.mainfooter p {
+  font-size: 1em;
+}
 
 
 .footernav ul{
@@ -100,29 +103,34 @@ p{
 
 /* ----------------------------------------------------------LANDING START ---------------------------------------------------*/
 .welcomepage{
-
+    margin-top: 50px;
     justify-content: center;
     background: url(../images/billings_brody_landingpage.jpg);
-    max-height: 800px;
     background-repeat: no-repeat;
-    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    background-size: 1024px, 600px;
+    height: 600px;
+    background-size: 100%;
 }
 .formopen {
-margin-left: 15%;
-margin-left: 15%;
+margin-top: 20%;
+margin-left: auto;
+margin-right: auto;
 padding: 50px;
-max-width: 100%;
 animation-duration: 2s;
 animation-name: slidein;
 }
 
 @keyframes slidein {
     from {
+      margin-top: 5%;
       margin-left: 100%;
       width: 100%;
     }
     to {
-      margin-left: 20%;
+      margin-left: 1%;
       width: 100%;
     }
 }
@@ -248,6 +256,29 @@ margin-bottom: 20px;
 }
 /* ----------------------------------------------------------ADVERT END ---------------------------------------------------*/
 
+/* ---------------------------------------------------------CONTACT START ---------------------------------------------------*/
+.formcontact{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+}
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ac2025;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+
+
+}
+
+/* ----------------------------------------------------------CONTACT END ---------------------------------------------------*/
+
+/* ----------------------------------------------------------MOBILE START ---------------------------------------------------*/
+
 @media only screen and (max-width:500px) {
 
   .sitecontainer{
@@ -330,250 +361,4 @@ margin-bottom: 20px;
 
 /* ----------------------------------------------------------CONTACT MOBILE START ---------------------------------------------------*/
 /* ----------------------------------------------------------CONTACT MOBILE END ---------------------------------------------------*/
-}
-
-/*
-.hidden {
-    display: none;
-}
-
-p{
-    font-family: 'Rubik', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    color: rgb(73, 73, 73);
-    margin: 0;
-}
-
-h3{
-    font-family: 'Rubik', Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    font-weight: 900;
-    color: rgb(73, 73, 73);
-}
-
-h4{
-    font-family: 'Rubik', Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    color: rgb(73, 73, 73);
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: rgb(73, 73, 73);
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    }
-
-a:visited{
-    text-decoration: none;
-    color: black;
-}
-
-#sitecontainer{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 1024px;
-}
-/* Header/Main Nav*/
-/*
-#mainheader{
-    overflow: hidden;
-    position: fixed;
-    background-color: rgb(172, 32, 37);
-
-}
-
-#logo{
-    width: 400px;
-    float: left;
-    height: 100px;
-}
-
-#mainnav{
-    width: 624px;
-    float: right;
-}
-
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 50px;
-    text-decoration: none;
-}
-
-li a::after{
-    content: '';
-    position: absolute;
-    display: block;
-    width: 0%;
-    height: 5px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 5px;
-    transition: all ease-in-out 2s;
-
-}
-
-li a:hover::after {
-    width: 50px;
-}
-
-/* Footer */
-/*
-#mainfooter{
-    overflow: hidden;
-}
-
-#footernav{
-    float: left;
-    width: 557px;
-    height: 100px;
-    background-color: rgb(51, 70, 155);
-}
-#copyright{
-    float: right;
-    width: 467px;
-    height: 100px;
-    background-color: rgb(51, 70, 155);
-    text-align: center;
-}
-
-#copyright p {
-    margin-top: 30px;
-    color: black;
-    text-align: left;
-}
-
-/* Hero */
-
-
-/* Products/Promos Page*/
-/*
-#products{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 50px;
-    justify-content: center;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-#products h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-/* About page*/
-/*
-#stories{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.hisarticlel{
-    display: inline-block;
-    margin-bottom: 50px;
-}
-.hisarticlel img{
-    float: left;
-    margin-right: 10px;
-}
-
-.hisarticlel p{
-    margin-top: 100px;
-    margin-left: 20px;
-}
-
-.overlap p {
-    text-align: left;
-    max-width: 50px;
-}
-/* Form */
-/*
-.form {
-   margin-top: 50px;
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   padding: 20px;
-   margin-bottom: 50px;
-}
-.form input{
-    margin-bottom: 10px;
-}
-
-
-#button{
-    margin-top: 10px;
-    max-width: 100px;
-}
-
-/* Ads page*/
-/*
-#advertisments{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 50px;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-
-.adl{
-margin-bottom: 50px;
-}
-.adl h3, h4{
-    text-align: left;
-    padding: 10px;
-    }
-
-.adr{
-    margin-bottom: 50px;
-}
-
-.adr h3, h4{
-    text-align: left;
-    padding: 10px;
-    }
-
-/* landing page*/
-/*
-.welcomepage{
-    margin-top: 50px;
-    justify-content: center;
-    background: url(/images/billings_brody_landingpage.jpg);
-    background-size: 1024px, 600px;
-    height: 600px;
-    background-size: 100%;
-}
-.formopen {
-margin-top: 150px;
-margin-left: 100px;
-padding: 50px;
-animation-duration: 2s;
-animation-name: slidein;
-}
-
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 100%;
-    }
-    to {
-      margin-left: 9.8%;
-      width: 100%;
-    }
 }
