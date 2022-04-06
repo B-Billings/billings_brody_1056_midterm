@@ -18,9 +18,9 @@
                 <div class="formopen">
                 <form class="formopen" action="email.php" method="POST" enctype="text/plain">
                     <p>Please enter your age to continue</p>
-                    <input name="month" type="number" placeholder="M/M">
-                    <input name="day" type="number" required placeholder="Day">
-                    <input name="year" type="number" required placeholder="year">
+                    <input name="month" type="number" min="1" max="12" placeholder="M/M">
+                    <input name="day" type="number" min="1" max="31" required placeholder="Day">
+                    <input name="year" type="number" min="1940" max="2003" required placeholder="year">
                     <a href="about.html">Continue</a>
                 </form>
                 </div>

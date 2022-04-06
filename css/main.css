@@ -250,9 +250,16 @@ margin-bottom: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
+.advertisments img{
+  cursor: pointer;
+}
 .ad2 {
   margin-bottom:50px;
+}
+
+.advertisments p {
+  max-width: 400px;
+  overflow: none;
 }
 /* ----------------------------------------------------------ADVERT END ---------------------------------------------------*/
 
@@ -284,6 +291,30 @@ input[type=text], select, textarea {
   .sitecontainer{
       max-width: 1024px;
     }
+
+#button{
+  display: none;
+
+}
+#burgercon{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+#mainnav{
+  text-align: right;
+  margin-left: auto;
+}
+.mainnav li{
+  border-bottom: none;
+  display: inline;
+  margin-left: 20px;
+}
+
+.mainnav li a{
+  ba
+}
 
 /* ----------------------------------------------------------NAV MOBILE START -------------------------------------------------*/
 .mainnav{
