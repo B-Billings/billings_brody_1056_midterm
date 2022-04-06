@@ -1,10 +1,13 @@
-# 1056 Mid Term by Brody Billings
-
-This is the submission file for Brody Billings Mid Tern in Web Development 1
+# Brand Mash-up FIP
+## Brody Billings
 <br>
 
-This website features images that are to represent what will be in that box for the FIP. 
-Places where placeholder.com is usedhas a note in the code to reference what would be there.
+This is the submission file for Brody Billings Brand Mash-Up FIP
+<br>
+
+A brief summary. This is a responsive website for mobile/tablet and desktop. The brands I was given for the mashup were GoldBond MAXIMUM STREGNTH and Molson. The design takes Molson as the inspiration taking the new name of GoldBond.
+
+Feel free to look at this [Google Docs](https://docs.google.com/document/d/13sa8QMUSG4brqig9sXirW7SKnPgkid7BhG7isrEZ1sg/edit?usp=sharing) file for planning and problem solving
 
 ## Installation
 ***
@@ -29,12 +32,12 @@ Places where placeholder.com is usedhas a note in the code to reference what wou
 ## Credits
 ***
 HTML markup/outline [W3C](https://validator.w3.org/)
-<br> 
-CSS Animation help [MDN Web Docs](https://developer.mozilla.org/en-US/)
-<br> 
-CSS Reset File [Meyer Web](http://meyerweb.com/eric/tools/css/reset/)
-
 <br>
+CSS Animation help [MDN Web Docs](https://developer.mozilla.org/en-US/)
+<br>
+CSS Reset File [Meyer Web](http://meyerweb.com/eric/tools/css/reset/)
+<br>
+JS help from in class demonstrations and assignments
 
 ## License
 ***
