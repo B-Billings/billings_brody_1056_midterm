@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,18 +15,21 @@
     <h1 class="hidden">Product Ads</h1>
     <div class="sitecontainer">
         <header class="mainheader">
-          <nav class ="mainnav">
-            <div class="logo"> <a href="landingpage.html"> <img src="images/billings_brody_fip_logo_name.svg" alt=" Gold Bond Logo"></a>
-            </div>
-                <h2 class="hidden">Main Navigation</h2>
-                <ul>
-                    <li><a href="about.html"> About</a></li>
-                    <li><a href="products.html"> Products</a></li>
-                    <li><a href="advertismentspage.html"> Advertisments</a></li>
-                    <li><a href="contactpage.html"> Contact</a></li>
-                </ul>
-                <img id="menu" src="images/hamburgermenu.png" alt="menu">
-            </nav>
+          <h1 class="hidden">Nav</h1>
+          <nav id="mainnav">
+        		<h2 class="hidden">Main Navigation</h2>
+        		<button id="button"></button>
+        		<div id="menucontent">
+        			<ul id="hamburgermenu">
+        				<li><a href="about.html"> About</a></li>
+                            <li><a href="products.html"> Products</a></li>
+                            <li><a href="advertismentspage.html"> Advertisments</a></li>
+                            <li><a href="contactpage.html"> Contact</a></li>
+        			</ul>
+        		</div>
+        		<div class="logo"> <a href="landingpage.html"> <img src="images/billings_brody_fip_logo_name.svg" alt=" Gold Bond Logo"></a>
+        		        </div>
+        	</nav>
         </header>
 
         <section class="formcontact">
@@ -37,7 +41,7 @@
                 <input name="contactInfo" type="text" required placeholder="Email Adress">
                 <input name="Subject" type="text" required placeholder="Subject">
                 <textarea name="msg" placeholder="Enter your questions here"></textarea>
-                <input id="button" name="submit" type="button" value="Submit">
+                <input id="submt" name="submit" type="button" value="Submit">
             </form>
             </div>
         </section>
@@ -63,6 +67,6 @@
         </footer>
     </div>
 
-    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
