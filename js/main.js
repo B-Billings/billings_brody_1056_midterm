@@ -9,23 +9,26 @@
     [`IPA`, `Bold tasting IPA 7% Alc`],
 		[`EPA`, `Classic EPA 5% Alc`],
 		[`Lager`, `Goldbonds signiature 5% Alc`],
+		[`Goldbonds signiature 5% Alc`],
 	];
 
 
 
-	function personbio(name, text) {
+	function beerbio(name, text) {
 		type.textContent = name;
 		beerinfo.textContent = text;
 	}
 
-	function changeText(event) {
-		personbio(introContent[event.target.dataset.offset][0],
+	function changeText0(event) {
+		beerbio(introContent[event.target.dataset.offset][0],
 						introContent[event.target.dataset.offset][1]);
 						console.log("Text Changed");
 	}
 
 
-	TheList.addEventListener("click", changeText);
+	TheList.addEventListener("click", changeText0);
+
+
 
 
 
