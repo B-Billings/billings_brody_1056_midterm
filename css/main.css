@@ -14,6 +14,7 @@ p{
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 16px;
+  color: #3a3b3c;
 }
 
 .sitecontainer{
@@ -54,7 +55,7 @@ p{
 }
 
 #mainnav ul li a:hover{
-  color: #ac2025;
+  color: #32469a;
   transition: 1s;
 }
 #menu{
@@ -75,7 +76,8 @@ p{
 
 }
 .mainfooter p {
-  font-size: 1em;
+  font-size: 1vw;
+  color: #fff;
 }
 
 
@@ -84,6 +86,7 @@ p{
 }
 .footernav ul li{
   display: inline-flex;
+  margin-bottom: 50px;
 }
 .footernav ul li a{
   text-decoration: none;
@@ -158,6 +161,10 @@ animation-name: slidein;
     margin-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#stories p {
+  margin-right: 5px;
 }
 
 .hisarticlel{
@@ -301,11 +308,21 @@ input[type=text], select, textarea {
       max-width: 1024px;
     }
 
+    p{
+      font-size: 12px;
+      color: #3a3b3c;
+    }
+
     .logo{
   		width: 40%;
   		padding: 10px;
   		order: +1;
   	}
+
+    #mainnav ul li a:hover{
+      color: #ac2025;
+      transition: 1s;
+    }
   	#mainnav button{
   		display: inline-flex;
   		float: right;
@@ -317,7 +334,7 @@ input[type=text], select, textarea {
   		height: 30px;
   		width: 30px;
   		border: 1px;
-  		transition: all 400ms ease;
+  		transition: all 300ms ease;
   		margin-left: auto;
   		margin-right:  20px;
   		margin-top: 10px;
@@ -409,11 +426,20 @@ input[type=text], select, textarea {
 .mainfooter{
   background-color: #32469a;
 }
+
+#copyright {
+  justify-content: space-around;
+ padding: 20px;
+}
+#copyright p {
+  margin-left: auto;
+  margin-right:
+  max-width: 200px;
+  align-items: center;
+
+}
+/* --------
 /* ----------------------------------------------------------Foot MOBILE END -------------------------------------------------*/
-
-/* -------------------------------------------------LANDING MOBILE START ---------------------------------------------------*/
-/* ----------------------------------------------------LANDING MOBILE END ---------------------------------------------------*/
-
 
 /* ----------------------------------------------------------ABOUT MOBILE START ---------------------------------------------------*/
 .hisarticlel{
@@ -422,9 +448,6 @@ input[type=text], select, textarea {
   margin-right: 10px;
 }
 /* ----------------------------------------------------------ABOUT MOBILE END ---------------------------------------------------*/
-
-/* ----------------------------------------------------------PRODUCT MOBILE START ---------------------------------------------------*/
-/* ----------------------------------------------------------PRODUCT MOBILE END ---------------------------------------------------*/
 
 /* ----------------------------------------------------------ADVERT MOBILE START ---------------------------------------------------*/
 .advertisments{
@@ -449,6 +472,4 @@ input[type=text], select, textarea {
 }
 /* ----------------------------------------------------------ADVERT MOBILE END ---------------------------------------------------*/
 
-/* ----------------------------------------------------------CONTACT MOBILE START ---------------------------------------------------*/
-/* ----------------------------------------------------------CONTACT MOBILE END ---------------------------------------------------*/
 }
