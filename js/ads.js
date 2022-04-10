@@ -13,10 +13,10 @@
 
 
 	const adcontent = [
-    [`This was the 2021 V-Day 2 pack for 2$ PROMO whether is for just you we dont care`],
-		[`The 2019 Winter Promo found in Northern Europe`],
-		[`We knew you wanted a deal for summer so we provided`],
-		[`Because we offer a flavour from another world N/A billboard ad`],
+    [`This was the 2021 V-Day 2 pack for 2$ PROMO to share with your loved one, or yourself we dont judge.`],
+		[`The 2019 Winter Promo poster found in Northern Europe.`],
+		[`We knew you wanted a deal for summer so we provided.`],
+		[`Because we offer a flavour from another world N/A billboard ad.`],
 	];
 
 
